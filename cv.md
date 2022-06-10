@@ -8,10 +8,8 @@
 * [Linkedin](https://www.linkedin.com/in/ekateryna-khodotchuk)
 * [Behance](https://www.behance.net/netsu6797)
 ## **About me**
-### Education:
-- Belarusian State Economic University - specialty economist
-- Institute for Advanced Studies of the Belarusian State Technological University - specialty Web Designer
-- IT Academy - specialty Web designer
+
+Design thinking is one of the main life strategies. I believe that beauty is in composition, harmony, logic, utility.
 ### Soft skills:
 - a responsibility
 - organization
@@ -26,6 +24,7 @@
 - HTML/CSS
 ## **Code example**
 ```javascript
+
 function robberEncode(sentence) {
     const V1 = "BCDFGHJKLMNPQRSTVWXZ";
     const volves = "bcdfghjklmnpqrstvwz";
@@ -49,4 +48,14 @@ function robberEncode(sentence) {
     return r;
 }
 ```
-## **Code example**
+## **Work experience**
+
++ From April 2021 to February 2022 -  junior web-designer at 
+**Slamsoft Computing Limited**, Minsk, Belarus
+## **Education**
+- Belarusian State Economic University - specialty economist
+- Institute for Advanced Studies of the Belarusian State Technological University - specialty Web Designer
+- IT Academy - specialty Web designer
+
+## **English level**
+Pre-Intermediate
