@@ -1,5 +1,5 @@
 # **Katsiaryna Khadatchuk**
-![ava](img\photo_2022-06-10_20-26-14.jpg)
+![ava](img\photo_photo_2022-06-10_20-26-14 1.jpg)
 ## **Contacts**
 * Warsaw, Poland
 * E-mail: iiobejlutejlbmupa@gmail.com
