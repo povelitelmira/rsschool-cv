@@ -13,27 +13,32 @@
 </head>
 <body>
     <div id="conteiner">   
-        <div id="heder">
-            <div id="menu">
-                <ul>
-                    <li>Contacts</li>
-                    <li>About me</li>
-                    <li>Code example</li>
-                    <li>Education</li>
-                    <li>English level</li>
+        <header>
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#english" class="nav-link">English level</a></li>
                 </ul>
-
-            </div>
-
-        </div>
-        <div id="main">
-            
-            <div id="photo">
-                <p><img src="D:\rs-school\rsschool-cv\img\photo_2022-06-10_20-26-14 1.jpg" alt="My photo">
-                </p>
-                   
-                     <div id="contacts">
-                        <h1>Katsiaryna Khadatchuk</h1>
+              </nav>
+        </header>
+       
+        <main>
+            <section class="section" id="avatar">
+                <div class="photo">
+                    <img src="D:\rs-school\rsschool-cv\img\photo_2022-06-10_20-26-14 1.jpg" alt="My photo">
+                </div>
+            </section>
+            <section class="section" id="nameCV">
+                <div class="name">
+                    <h1>Katsiaryna Khadatchuk</h1>
+                    <h3>Web-designer</h3>
+                </div>
+            </section>
+            <section class="section" id="mycontacts">
+                <div class="contacts" id="contacts">
                         <h2>Contacts</h2>
                         <ul>
                          <li>Warsaw, Poland</li>
@@ -43,79 +48,83 @@
                          <li>Linkedin</li>
                          <li>Behance</li>
                      </ul>
-               </div>
-
-
-
-            </div>
-        
-
-        <div id="about me">
-
-            <h2>About me</h2>
-             <span>Design thinking is one of the main life strategies. I believe that beauty is in composition, harmony, logic, utility.</span>
-            <h3>Soft skills:</h3>
-             <ul>
-                <li>responsibility</li>
-                <li>organization</li>
-                <li>multitasking</li>
-                <li>creativity</li>
-                <li>stress tolerance</li>
-             </ul>
-             <h3>Hard skills</h3>
-             <ul>
-                <li>Web-design</li>
-                <li>Figma</li>
-                <li>Photoshop</li>
-                <li>Adobe Illustrator</li>
-                <li>HTML/CSS</li>
-             </ul>
-        </div>
-        <div id="Code example">
-            <h2>Code example</h2>
-            <p>function robberEncode(sentence) {
-                const V1 = "BCDFGHJKLMNPQRSTVWXZ";
-                const volves = "bcdfghjklmnpqrstvwz";
-                var r;
-                for (let i = 0; i < sentence.length; i++) {
-                    if (vowels.includes(sentence.charAt(i)) && V1.includes(sentence.charAt(i))) {
-                        if (vowels.includes(sentence.charAt(i))) {
-                            r = r + sentence.charAt(i) + 'o' + sentence.charAt(i);
-            
+                </div>
+            </section>
+            <section class="section" id="aboutme">
+                <div class="aboutmyself" id="about">
+                    <h2>About me</h2>
+                     <p>Design thinking is one of the main life strategies. I believe that beauty is in composition, harmony, logic, utility.</p>
+                     <h3>Soft skills:</h3>
+                      <ul>
+                       <li>responsibility</li>
+                       <li>organization</li>
+                       <li>multitasking</li>
+                       <li>creativity</li>
+                       <li>stress tolerance</li>
+                      </ul>
+                     <h3>Hard skills</h3>
+                      <ul>
+                       <li>Web-design</li>
+                       <li>Figma</li>
+                       <li>Photoshop</li>
+                       <li>Adobe Illustrator</li>
+                       <li>HTML/CSS</li>
+                      </ul>
+                </div>
+            </section>
+            <section class="section" id="code">
+                <div class="code_examples" id="code">
+                  <h2>Code example</h2>
+                  <p>function robberEncode(sentence) {
+                    const V1 = "BCDFGHJKLMNPQRSTVWXZ";
+                    const volves = "bcdfghjklmnpqrstvwz";
+                    var r;
+                    for (let i = 0; i < sentence.length; i++) {
+                        if (vowels.includes(sentence.charAt(i)) && V1.includes(sentence.charAt(i))) {
+                            if (vowels.includes(sentence.charAt(i))) {
+                                r = r + sentence.charAt(i) + 'o' + sentence.charAt(i);
+                
+                            }
+                            else {
+                
+                                r = r + sentence.charAt(i) + 'O' + sentence.charAt(i);
+                            }
+                
                         }
                         else {
-            
-                            r = r + sentence.charAt(i) + 'O' + sentence.charAt(i);
+                            r = r + sentence.charAt(i);
                         }
-            
                     }
-                    else {
-                        r = r + sentence.charAt(i);
+                    return r;
                     }
-                }
-                return r;
-            }
-            </p>
-        </div>
-        <div id="Education">
-            <h2>Education</h2>
-            <ul>
-                <li>Belarusian State Economic University - specialty economist</li>
-                <li>Institute for Advanced Studies of the Belarusian State Technological University - specialty Web Designer</li>
-                <li>IT Academy - specialty Web designer</li>
-            </ul>
-        </div>
-        <div id="English level">
-            <h2>English level</h2>
-            <p>Pre-Intermediate</p>
-        </div>
-
-
-
-        </div> 
-        <div id="footer">
-
-        </div> 
+                    </p>
+                 </div>
+            </section>
+            <section class="section" id="education">
+                <div class="myeducation" id="education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li>Belarusian State Economic University - specialty economist</li>
+                        <li>Institute for Advanced Studies of the Belarusian State Technological University - specialty Web Designer</li>
+                        <li>IT Academy - specialty Web designer</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="english" id="mylevel">
+                <div class="myenglishlevel" id="english">
+                    <h2>English level</h2>
+                    <p>Pre-Intermediate</p> 
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="RSS">
+                <a href="https://rs.school/js/" ><img src="https://rs.school/images/rs_school_js.svg" alt="rss logo"></a>
+            </div>
+            <div class="github">
+                <a href="https://github.com/povelitelmira" ><img src="img\GitHub_Logo.png" alt="my github"></a>
+            </div> 
+        </footer>
     </div>
 </body>
 </html>
